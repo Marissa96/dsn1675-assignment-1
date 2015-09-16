@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.masthead {
+  background-image: url("../images/logo.svg");
+  background-size: 55px auto;
+  background-repeat: no-repeat;
+  background-position: left 20px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.buy {
+  float: left;
+}
+
+.buy {
+  float: right;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 0.75em;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 0em;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+}
+
+.first-photo {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.first-figcaption {
+  position: absolute;
+  overflow: hidden;
+  top: 35%;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.seven-wonders {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+p {
+  margin: 0;
+}
+
+.date {
+  float: left;
+  text-align: center;
+}
+
+.builders {
+  float: left;
+  text-align: center;
+}
+
+.location {
+  float: left;
+  text-align: center;
+}
+
+dd {
+  margin: 0;
+}

@@ -7,11 +7,12 @@
       <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="masthead">
     <h1>Museum of Antiquities</h1>
+    <a class="buy" href>Buy</a>
   </header>
 
-  <nav>
+  <nav class="nav-bar">
     <ol>
       <li><a href="seven-wonders">Seven wonders</a></li>
       <li><a href="buy-tickets">Buy tickets</a></li>
@@ -20,22 +21,24 @@
     </ol>
   </nav>
 
-  <img src="images/abduction_of_helen_amidst.jpg" alt="">
-  <figcaption>
+<div class="first-photo">
+  <img class="helen" src="images/abduction_of_helen_amidst.jpg" alt="">
+  <figcaption class="first-figcaption">
     <h2>The Seven Wonders of the Ancient World</h2>
-    Remarkable constructions of classical antiquity almost completely lost in time.
+    <p>Remarkable constructions of classical antiquity almost completely lost in time.</p>
   </figcaption>
+</div>
 
 <h2>The Seven Wonders</h2>
-<img src="images/giza.jpg" alt="">
+<img class="seven-wonders" src="images/giza.jpg" alt="">
 <dl>
   <h3>Great Pyramid of Giza</h3>
-  <dt>Date of construction:</dt><dd>2584–2561 BC</dd>
-  <dt>Builders:</dt><dd>Egyptians</dd>
-  <dt>Location:</dt><dd>Giza Necropolis, Egypt</dd>
+  <div class="date"><dt>Date of construction:</dt><dd>2584–2561 BC</dd></div>
+  <div class="builders"><dt>Builders:</dt><dd>Egyptians</dd></div>
+  <div class="location"><dt>Location:</dt><dd>Giza Necropolis, Egypt</dd></div>
   <a>Learn more about Giza</a>
 </dl>
-<img src="images/hanging_gardens_of_babylon.jpg" alt="">
+<img class="seven-wonders" src="images/hanging_gardens_of_babylon.jpg" alt="">
 <dl>
   <h3>Hanging Gardens of Babylon</h3>
   <dt>Date of construction:</dt><dd>Circa 600 BC</dd>
@@ -43,7 +46,7 @@
   <dt>Location:</dt><dd>Nineveh, Iraq</dd>
   <a>Learn more about the Hanging Gardens</a>
 </dl>
-<img src="images/temple_of_artemis.jpg" alt="">
+<img class="seven-wonders" src="images/temple_of_artemis.jpg" alt="">
 <dl>
   <h3>Temple of Artemis</h3>
   <dt>Date of construction:</dt><dd>Circa 550 BC</dd>
@@ -51,7 +54,7 @@
   <dt>Location:</dt><dd>Selçuk, Turkey</dd>
   <a>Learn more about the Temple</a>
 </dl>
-<img src="images/statue_of_zeus.jpg" alt="">
+<img class="seven-wonders" src="images/statue_of_zeus.jpg" alt="">
 <dl>
   <h3>Statue of Zeus at Olympia</h3>
   <dt>Date of construction:</dt><dd>435 BC</dd>
@@ -59,7 +62,7 @@
   <dt>Location:</dt><dd>Olympia, Greece</dd>
   <a>Learn more about the Statue</a>
 </dl>
-<img src="images/mausoleum_at_halicarnassus.jpg" alt="">
+<img class="seven-wonders" src="images/mausoleum_at_halicarnassus.jpg" alt="">
 <dl>
   <h3>Mausoleum at Halicarnassus</h3>
   <dt>Date of construction:</dt><dd>351 BC</dd>
@@ -67,7 +70,7 @@
   <dt>Location:</dt><dd>Bodrum, Turkey</dd>
   <a>Learn more about the Mausoleum</<a>
 </dl>
-<img src="images/colossus_of_rhodes.jpg" alt="">
+<img class="seven-wonders" src="images/colossus_of_rhodes.jpg" alt="">
 <dl>
   <h3>Colossus of Rhodes</h3>
   <dt>Date of construction:</dt><dd>292–280 BC</dd>
@@ -75,7 +78,7 @@
   <dt>Location:</dt><dd>Rhodes, Greece</dd>
   <a>Learn more about Colossus</a>
 </dl>
-<img src="images/pharos_of_alexandria.jpg" alt="">
+<img class="seven-wonders" src="images/pharos_of_alexandria.jpg" alt="">
 <dl>
   <h3>Lighthouse of Alexandria</h3>
   <dt>Date of construction:</dt><dd>Circa 280 BC</dd>
@@ -86,15 +89,15 @@
 
   <h2>Buy tickets</h2>
 
-  Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.
+  <p>Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
 
   <a>$15 for adults</a>
   <a>$5 for kids</a>
 
-  Become a member
+  <h3>Become a member</h3>
 
-  Is one visit not enough?
-  Join our yearly program for unlimited access.
+  <p>Is one visit not enough?
+  Join our yearly program for unlimited access.</p>
 
   <a>$99 for adults</a>
   <a>$39 for kids</a>
@@ -110,47 +113,56 @@
   <a>See show times</a>
 
   <h2>This week at the museum</h2>
-
+<ol>
   <h3>Saturday & Sunday</h3>
-  Atlantis city tours
-  Underwater explorer: see outside the bubble
-
+<ul>
+  <li>Atlantis city tours</li>
+  <li>Underwater explorer: see outside the bubble</li>
+</ul>
   <h3>Monday</h3>
-  Try this out: have fun building your own ancient wonder
-  Amazing architecture: explore the science of how the pyramids were built
-
+<ul>
+  <li>Try this out: have fun building your own ancient wonder</li>
+  <li>Amazing architecture: explore the science of how the pyramids were built</li>
+</ul>
   <h3>Tuesday</h3>
-  Awesome art: witness art in action as a marble sculpture is born
-  Gold rush: learn about the metal and why it was so coveted
-
+<ul>
+  <li>Awesome art: witness art in action as a marble sculpture is born</li>
+  <li>Gold rush: learn about the metal and why it was so coveted</li>
+</ul>
   <h3>Wednesday</h3>
-  Try this out: wear clothes that the ancients wore
-  Gardenology: learn to plant and maintain amazing gardens
-
+<ul>
+  <li>Try this out: wear clothes that the ancients wore</li>
+  <li>Gardenology: learn to plant and maintain amazing gardens</li>
+</ul>
   <h3>Thursday</h3>
-  Amazing architecture: explore the science of buildings
-  Gardenology: the science behind trees and the environment
-
+<ul>
+  <li>Amazing architecture: explore the science of buildings</li>
+  <li>Gardenology: the science behind trees and the environment</li>
+</ul>
   <h3>Friday</h3>
-  Atlantis city tours
-  Awesome art: witness a full mosaic floor under construction
+<ul>
+  <li>Atlantis city tours</li>
+  <li>Awesome art: witness a full mosaic floor under construction</li>
+</ul>
+</ol>
 
 <footer>
-  © Museum of Antiquities
-
+  <h2>© Museum of Antiquities</h2>
   <a>hello@antiquities.museum</a>
   <a>1 888 000 1618</a>
   <a>Hours</a>
   <a>Directions</a>
-
-  1618 Plato Blvd.
-  Atlantis, Atlantis, Atlantic Ocean
-
-  <a>Exhibits</a>
-  <a>Collections</a>
-  <a>Donors & sponsors</a>
-  <a>Teacher information</a>
-  <a>Birthday rentals</a>
+  <p>1618 Plato Blvd.
+    Atlantis, Atlantis, Atlantic Ocean</p>
+    <nav>
+      <ul>
+        <a>Exhibits</a>
+        <a>Collections</a>
+        <a>Donors & sponsors</a>
+        <a>Teacher information</a>
+        <a>Birthday rentals</a>
+      </ul>
+    </nav>
 </footer>
 
 
