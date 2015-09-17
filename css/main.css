@@ -1,3 +1,5 @@
+/* purple colour - #9899cb    grey colour - #797a7d */
+
 html {
   box-sizing: border-box;
 }
@@ -17,19 +19,29 @@ body{
   background-repeat: no-repeat;
   background-position: left 20px;
   overflow: hidden;
+  padding-bottom: 0.5rem;
+  margin-left: 2rem;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 .buy {
   float: left;
+position: absolute;
+top: 2%;
+right: 4%;
+  text-decoration: none;
+  background-color: #9899cb;
+  color: white;
+  padding: 0.75em;
 }
 
-.buy {
-  float: right;
+.buy:hover {
+  background-color: #797a7d;
 }
 
 nav ol {
@@ -37,7 +49,7 @@ nav ol {
   margin: 0;
   overflow: hidden;
   padding: 0;
-  background-color: black;
+  background-color: #797a7d;
 }
 
 nav li {
@@ -49,21 +61,34 @@ nav li {
 
 nav a {
   text-decoration: none;
-  padding: 0.5em;
+  padding: 0.75em;
   margin: 0em;
   font-size: 1rem;
   font-weight: 700;
   color: white;
+  width: 25%;
 }
 
-.first-photo {
-  position: relative;
+nav li:hover {
+  background-color: #9899cb;
+  padding: 0.75em;
+  width: 25%;
+}
+
+.first-h2 {
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.helen {
+padding-bottom: 2.5em;
+background-color: #797a7d;
 }
 
 .first-figcaption {
   position: absolute;
   overflow: hidden;
-  top: 35%;
+  top: 30%;
   color: white;
   width: 100%;
   text-align: center;
@@ -72,6 +97,7 @@ nav a {
 h2 {
   text-align: center;
   margin: 0;
+  width: 100%;
 }
 
 img {
@@ -91,6 +117,7 @@ p {
   float: left;
   text-align: center;
     width: 33%;
+  margin-left: 0.12rem;
 }
 
 .builders {
@@ -107,31 +134,59 @@ p {
 
 .learn-more {
   float: left;
-  padding-top: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3.7rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   width: 100%;
   text-align: center;
+  background-color:  #9899cb;
+  color: white;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  background-color: #797a7d;
 }
 
 dd {
   margin: 0;
 }
 
+dl {
+  margin: 0;
+}
+
+h3 {
+margin-bottom: 0;
+padding-bottom: 0.5em;
+margin-left: 2rem;
+margin-top: 0;
+}
+
 .member {
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 7rem;
   margin-bottom: 0;
 }
 
 .cost {
   float: left;
-    width: 25%;
-    text-align: center;
-    padding: 0.75em;
-    background-color: black;
-    color: white;
-    margin-left: 5rem;
-    margin-right: 4rem;
-    margin-top: 1rem;
+  width: 25%;
+  text-align: center;
+  padding: 0.75em;
+  background-color:  #797a7d;
+  color: white;
+  margin-left: 5rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.cost:hover {
+  background-color: #9899cb;
 }
 
 .tickets {
@@ -141,16 +196,12 @@ dd {
 }
 
 .now-playing {
-  margin-top: 7rem;
+  margin-top: 9rem;
   padding-bottom: 1rem;
 }
 
 .second-photo{
   position: relative;
-}
-
-.second-photo figcaption {
-
 }
 
 .sp {
@@ -161,7 +212,26 @@ color: white;
 background-color: black;
 overflow: hidden;
 width: 100%;
+background-color: rgba(121, 122, 125, 0.5);
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+}
 
+.sp p {
+  padding-bottom: 0.5em;
+}
+
+.see-show-times {
+  background-color: #9899cb;
+  text-decoration: none;
+  color: white;
+  padding: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.atlantis {
+  padding-bottom: 2em;
 }
 
 ol ul {
@@ -179,4 +249,44 @@ ol {
   margin: 0;
   padding-bottom: 0.25em;
   padding-top: 0.75em;
+}
+
+footer {
+  color: white;
+  background-color: #797a7d;
+}
+
+.last {
+  float: left;
+  width: 100%;
+  padding-left: 2rem;
+}
+
+h4 {
+  margin: 0;
+  padding-top: 1em;
+  padding-left: 2rem;
+}
+
+.last-p {
+  padding-left: 2rem;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.dont-care {
+  float: left;
+  width: 100%;
+  background-color: #797a7d;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0;
+  padding-left: 2rem;
+}
+
+ol ul {
+  margin-left: 2rem;
 }
