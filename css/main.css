@@ -224,6 +224,21 @@ nav ul {
 }
 
 @media only screen and (min-width: 26.9em) {
+  .buy {
+    float: left;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    text-decoration: none;
+    background-color: #9899cb;
+    color: white;
+    padding: 0.75em;
+  }
+
+  .buy:hover {
+    background-color: #797a7d;
+  }
+
   nav ol {
     list-style-type: none;
     margin: 0;
@@ -277,10 +292,9 @@ nav ul {
   padding-bottom: 2.5em;
   background-color: #797a7d;
   }
-
 }
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 37.75em) {
 body{
   padding: 0;
   margin: 0;
@@ -290,6 +304,7 @@ h1 {
   text-align: center;
   margin-bottom: 0;
   list-style-type: none;
+  padding-bottom: 1rem;
 }
 
 .buy {
@@ -351,7 +366,7 @@ background-color: #797a7d;
 .first-figcaption {
   position: absolute;
   overflow: hidden;
-  top: 30%;
+  top: 40%;
   color: white;
   width: 100%;
   text-align: center;
@@ -399,11 +414,11 @@ p {
   float: left;
   margin-top: 1rem;
   margin-bottom: 3.7rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 25%;
+  margin-right: 25%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  width: 100%;
+  width: 50%;
   text-align: center;
   background-color:  #9899cb;
   color: white;
@@ -496,6 +511,10 @@ padding-bottom: 0.5em;
   padding-bottom: 2em;
 }
 
+.this-week-at {
+  margin: 0;
+}
+
 ol ul {
   list-style-type: none;
   padding: 0;
@@ -519,19 +538,17 @@ footer {
 }
 
 .last {
-  float: left;
-  width: 100%;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 h4 {
   margin: 0;
   padding-top: 1em;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .last-p {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 nav ul {
@@ -546,10 +563,25 @@ nav ul {
   font-size: 0.85rem;
   font-weight: 500;
   padding: 0;
-  padding-left: 2rem;
+  padding-left: 1rem;
+}
+
+.dont-care2 {
+  float: left;
+  width: 100%;
+  background-color: #797a7d;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 ol ul {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
+}
+
+@media only screen and (min-width: 68.75em) {
+
 }
