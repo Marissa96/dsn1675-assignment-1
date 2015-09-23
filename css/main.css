@@ -34,6 +34,24 @@ h1 {
   margin: 0;
   list-style-type: none;
   clear: both;
+  margin-bottom: 1rem;
+}
+
+.buy {
+  clear: both;
+  text-decoration: none;
+  background-color: #9899cb;
+  color: white;
+  padding: 0.75em;
+  margin-left: 45%;
+}
+
+.buy:hover {
+  background-color: #797a7d;
+}
+
+.nav-bar {
+  margin-top: 1.5rem;
 }
 
 nav ol {
@@ -45,8 +63,11 @@ nav ol {
 }
 
 nav li {
+  text-align: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 nav a {
@@ -77,6 +98,10 @@ img {
 .first-figcaption {
   margin: 0;
   padding-bottom: 0.5rem;
+}
+
+.first-figcaption, p {
+  margin-left: 0.5rem;
 }
 
 .second-h2 {
@@ -209,10 +234,15 @@ ol {
 footer {
   color: white;
   background-color: #797a7d;
+  padding-left: 0.5rem;
 }
 
 h4 {
   margin-bottom: 0;
+}
+
+.last-p {
+  margin-left: 0;
 }
 
 nav ul {
@@ -556,7 +586,7 @@ nav ul {
   margin: 0;
 }
 
-.dont-care {
+.dont-care1 {
   float: left;
   width: 100%;
   background-color: #797a7d;
@@ -564,9 +594,43 @@ nav ul {
   font-weight: 500;
   padding: 0;
   padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .dont-care2 {
+  float: left;
+  width: 100%;
+  background-color: #797a7d;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dont-care3 {
+  float: left;
+  width: 100%;
+  background-color: #797a7d;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dont-care4 {
+  float: left;
+  width: 100%;
+  background-color: #797a7d;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dont-care5 {
   float: left;
   width: 100%;
   background-color: #797a7d;
@@ -582,6 +646,106 @@ ol ul {
 }
 }
 
-@media only screen and (min-width: 68.75em) {
+@media only screen and (min-width: 53.125em) {
+  .logo {
+    width: 150px;
+    position: relative;
+    left: 50%;
+    padding-top: 0.5rem;
+  }
 
+  .first-figcaption {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  .dl-list {
+    float: left;
+    width: 50%;
+  }
+
+  .cost {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 0.75em;
+    background-color:  #797a7d;
+    color: white;
+    margin-left: 15%;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+
+  .cost:hover {
+    background-color: #9899cb;
+  }
+
+  .dont-care1 {
+    float: left;
+    width: 20%;
+    background-color: #797a7d;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .dont-care2 {
+    float: left;
+    width: 20%;
+    background-color: #797a7d;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .dont-care3 {
+    float: left;
+    width: 20%;
+    background-color: #797a7d;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .dont-care4 {
+    float: left;
+    width: 20%;
+    background-color: #797a7d;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .dont-care5 {
+    float: left;
+    width: 20%;
+    background-color: #797a7d;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 68.75em) {
+  .logo {
+    width: 150px;
+    position: relative;
+    left: 44%;
+    padding-top: 0.5rem;
+  }
 }
