@@ -126,6 +126,19 @@ margin-top: 0;
   padding-bottom: 0.5rem;
 }
 
+dt, dd {
+  display: inline-block;
+}
+
+dd {
+  margin: 0;
+  padding-left: 0.3rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
 .learn-more {
   float: left;
   margin-top: 0.5rem;
@@ -322,6 +335,14 @@ nav ul {
   padding-bottom: 2.5em;
   background-color: #797a7d;
   }
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    padding-left: 0.3rem;
+  }
 }
 
 @media only screen and (min-width: 37.75em) {
@@ -419,6 +440,10 @@ img {
 
 p {
   margin: 0;
+}
+
+dt, dd {
+  display: block;
 }
 
 .date {
